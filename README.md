@@ -11,7 +11,7 @@ A local development setup that doesn't install NodeJS, Webpack, npm or other too
 
 - No install or build step
 - Load all dependencies from [jspm.io](https://jspm.io/)
-- Centralize all 3p imports in `./depts.js` (inipired by [Deno](https://deno.land/))
+- Centralize all third party imports in `./depts.js` (inipired by [Deno](https://deno.land/))
 - Target modern browsers, don't transpile ES6 features
 - Transpile jsx using Babel in a service worker
 
